@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slide Bar</title>
+        <link rel="stylesheet" href="flexslider.css" type="text/css"/>
+        <Style type="text/css">
+            body {
+                background-color: rgb(52, 91, 150);
+            }
+        </Style>
+        <script src="jquery-1.11.3.js" type="text/javascript"></script>
+        <script src="jquery.flexslider.js" type="text/javascript"></script>
+        <script>
+            // Can also be used with $(document).ready()
+            $(window).load(function() {
+                $('.flexslider').flexslider({
+                    animation: "slide"
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <!-- Place somewhere in the <body> of your page -->
+        <div class="flexslider">
+            <ul class="slides">
+                <li>
+                    <img src="slide1.jpg" />
+                </li>
+                <li>
+                    <img src="slide2.jpg" />
+                </li>
+                <li>
+                    <img src="slide3.jpg" />
+                </li>
+                <li>
+                    <img src="slide4.jpg" />
+                </li>
+                <li>
+                    <img src="slide5.jpg" />
+                </li>
+            </ul>
+        </div>
+    </body>
+
+</html>
