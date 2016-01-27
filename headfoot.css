@@ -1,0 +1,100 @@
+body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    background-color: #ffffff;
+}
+p {font-size: 16px;}
+.margin {margin-bottom:45px;}
+
+
+
+
+
+.navbar {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+    letter-spacing: 0px;
+    background-color:gray;
+
+}
+.navbar-nav  li a:hover {
+    color: #FF8C00 !important;
+
+    background-color:gray;
+
+
+}
+
+
+.footer{
+    position:absolute;
+    height: 150px;
+    width:100%;
+    background: #808080;
+    margin-top:500px;
+
+
+}
+.footer li { display: inline;}
+.icon{position:relative;
+    height:40px;
+    width:160px;
+    margin:auto;
+    margin-top:40px;
+}
+.botton{
+    position:relative;
+    margin:auto;
+    width:100px;
+
+}
+
+
+#icons i{
+    color:cornsilk ;
+    font-size:30px;
+
+}
+#fb:hover{
+
+    color: #2042B4;
+}
+#tw:hover{
+    color: #37bcff;
+
+}
+#insta:hover{
+    color:#FFDEAD;
+
+}
+#telegram:hover{
+    color: #5499ff;
+}
+#rss:hover{
+    color: #ff881a;
+
+}
+h2{
+
+    margin-right:auto;
+    text-align:center;
+    margin-top:50px;}
+
+
+
+#div1{
+
+    width:450px;
+    height:450px;
+    display:none;
+    background-color:	#ff8c00;
+    text-align:right;
+    margin:auto;
+    border-radius:5px;
+}
