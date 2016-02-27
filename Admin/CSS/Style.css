@@ -14,7 +14,7 @@ body {
     margin-top:40px;
 }
 nav a:hover {
-    color:white !important;
+    color:orangered !important;
 }
 #navigation div {
     display:inline-block;
@@ -150,4 +150,7 @@ hr {
     border: 0;
     height: 1px;
     border-top: 1px solid #333 !important;
+}
+.acitve {
+    text-color:darkred !important;
 }
